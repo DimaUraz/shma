@@ -1,3 +1,2 @@
 # shma
-ehala
-очень четкоЭ
+Test
