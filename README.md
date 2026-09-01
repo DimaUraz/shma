@@ -1,5 +1,3 @@
 # shma
-Test
-Teryian
-Test pr rules
 ehala
+очень четкоЭ
