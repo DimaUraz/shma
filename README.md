@@ -1,4 +1,1 @@
-# shma
-
-ehala
-очень четкоЭ
+figma: https://www.figma.com/design/UyL5jr2VyeeuiRvB82k46c/FlowMoney?m=auto&t=BB2ypOcT5W7xEoD3-6
