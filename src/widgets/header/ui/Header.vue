@@ -1,10 +1,10 @@
 <template>
-  <HeaderItem label="Home" :path="ServicePages.Home.path" />
-  <HeaderItem label="Notes" :path="ServicePages.Notes.path" />
-  <HeaderItem label="Tasks" :path="ServicePages.Tasks.path" />
+  <HeaderItem label="Home" :path="routes.Home" />
+  <HeaderItem label="Notes" :path="routes.Notes" />
+  <HeaderItem label="Tasks" :path="routes.Tasks" />
 </template>
 
 <script setup lang="ts">
-  import { HeaderItem } from '@/shared';
-  import { ServicePages } from '@/app';
+  import { HeaderItem } from '@/widgets';
+  import { routes } from '@/shared';
 </script>

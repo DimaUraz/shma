@@ -1,1 +1,1 @@
-export { default as HeaderItem } from './ui/HeaderItem.vue'
+export { routes } from '@/shared/config/routes'
