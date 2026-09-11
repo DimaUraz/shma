@@ -1,16 +1,8 @@
 import { Home, Notes, Tasks } from '@/pages'
+import { routes } from '@/shared'
 
 export const ServicePages = {
-  Home: {
-    path: '/',
-    component: Home
-  },
-  Notes: {
-    path: '/notes',
-    component: Notes
-  },
-  Tasks: {
-    path: '/tasks',
-    component: Tasks
-  }
+  Home: { path: routes.Home, component: Home },
+  Notes: { path: routes.Notes, component: Notes },
+  Tasks: { path: routes.Tasks, component: Tasks }
 }
