@@ -1,7 +1,10 @@
 <template>
+  <Header />
   <slot />
 </template>
 
-<script setup lang="ts"></script>
-
-<style scoped></style>
+<script setup lang="ts">
+  import { Header } from "@/widgets"
+</script>
+  
+<style scoped lang="scss"></style>
