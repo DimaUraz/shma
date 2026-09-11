@@ -1,8 +1,8 @@
 export default {
   semi: false,
   singleQuote: true,
-  trailingComma: 'es5',
+  trailingComma: 'none',
   printWidth: 100,
   tabWidth: 2,
-  plugins: ['prettier-plugin-organize-imports'],
+  plugins: ['prettier-plugin-organize-imports']
 }

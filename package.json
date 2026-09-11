@@ -9,10 +9,11 @@
     "preview": "vite preview",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "lint": "eslint ."
+    "lint": "eslint src"
   },
   "dependencies": {
-    "vue": "^3.5.41"
+    "vue": "^3.5.41",
+    "vue-router": "^5.3.1"
   },
   "devDependencies": {
     "@types/node": "^24.13.3",
