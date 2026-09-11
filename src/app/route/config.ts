@@ -1,12 +1,16 @@
-import { Dashboard, Test } from '../../pages'
+import { Home, Notes, Tasks } from '@/pages'
 
 export const ServicePages = {
-  dashboard: {
+  Home: {
     path: '/',
-    component: Dashboard
+    component: Home
   },
-  test: {
-    path: '/test',
-    component: Test
+  Notes: {
+    path: '/notes',
+    component: Notes
+  },
+  Tasks: {
+    path: '/tasks',
+    component: Tasks
   }
 }
