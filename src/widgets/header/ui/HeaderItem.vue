@@ -24,6 +24,7 @@ const isActive = computed(() => route.path === props.path)
 </script>
 
 <style scoped lang="scss">
+@use 'sass:color';
 @use '@/styles/variables' as *;
 
 .nav-item {
