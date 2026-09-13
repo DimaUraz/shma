@@ -18,9 +18,10 @@ import { HeaderItem } from '@/widgets'
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4px;
+  gap: 64px;
   padding: 8px 16px;
   background: $bg-card;
   border-bottom: 1px solid $border-color;
+  margin-bottom: 20px;
 }
 </style>

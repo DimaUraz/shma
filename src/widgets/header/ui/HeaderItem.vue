@@ -23,6 +23,7 @@ const isActive = computed(() => route.path === props.path)
 @use '@/shared/config/variables' as *;
 
 .nav-item {
+  font-size: 35px;
   text-decoration: none;
   color: $text-muted;
   padding: 8px 12px;
