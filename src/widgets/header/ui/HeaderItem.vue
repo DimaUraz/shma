@@ -1,36 +1,29 @@
 <template>
-  <button class="nav-item" :class="{ 'nav-item--active': isActive }" @click="pageSwitch()">
+  <Router-link :to="props.path" class="nav-item" :class="{ 'nav-item--active': isActive }">
     {{ label }}
-  </button>
+  </Router-link>
 </template>
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
 
 const props = defineProps<{
   label: string
   path: string
 }>()
 
-const router = useRouter()
 const route = useRoute()
-
-const pageSwitch = () => {
-  router.push(props.path)
-}
 
 const isActive = computed(() => route.path === props.path)
 </script>
 
 <style scoped lang="scss">
 @use 'sass:color';
-@use '@/styles/variables' as *;
+@use '@/shared/config/variables' as *;
 
 .nav-item {
-  border: none;
-  background: transparent;
-  font: inherit;
+  text-decoration: none;
   color: $text-muted;
   padding: 8px 12px;
   border-radius: 8px;
