@@ -12,10 +12,11 @@ import { HeaderItem } from '@/widgets'
 </script>
 
 <style scoped lang="scss">
-@use '@/styles/variables.scss' as *;
+@use '@/shared/config/variables' as *;
 
 .header {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 4px;
   padding: 8px 16px;
